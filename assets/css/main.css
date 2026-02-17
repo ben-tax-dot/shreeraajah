@@ -2906,3 +2906,22 @@ input, select, textarea {
 			}
 
 	}
+
+
+#banner {
+    background-image: url("../css/images/1771007875876.png");
+    background-size: cover;          /* fills full width */
+    background-position: center 45%;
+    background-repeat: no-repeat;
+
+    width: 100vw;                    /* full browser width */
+    margin-left: calc(-50vw + 50%);  /* removes container limits */
+
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
